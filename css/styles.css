@@ -140,3 +140,88 @@ header {
     color: #181D1F;
     width: 280px;
 }
+
+.victory_bgd {
+    width: 1170px;
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.victory_title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #181D1F;
+    margin: 16px 0;
+}
+
+.victory_descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #181D1F;
+    width: 875px;
+}
+
+.modal_bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(24, 29, 31, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_form {
+    background-color: #FFFFFF;
+    padding: 32px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_form_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+    margin: 32px 0 12px 0;
+}
+
+.modal_form_descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000F;
+    margin-bottom: 24px;
+}
+
+.modal_form_field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal_field_name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
