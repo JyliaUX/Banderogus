@@ -5,7 +5,7 @@ body {
    font-family: 'Montserrat';
 }
 
-.main_page {
+.main-page {
     background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
     height: 100%;
     display: flex;
@@ -28,17 +28,17 @@ header {
     left: 0;
 }
 
-.logo_text {
+.logo-text {
     margin-left: 18px;
 }
 
-.banderogus_container {
+.banderogus-container {
     background-color: #FFFFFF;
     padding: 60px 56px;
     align-self: center;
 }
 
-.banderogus_title {
+.banderogus-title {
     color: #181D1F;
     font-weight: 700;
     font-size: 64px;
@@ -46,7 +46,7 @@ header {
     margin-bottom: 24px;
 }
 
-.banderogus_greeting {
+.banderogus-greeting {
     color: #181D1F;
     font-weight: 700;
     font-size: 16px;
@@ -54,7 +54,7 @@ header {
     margin-bottom: 16px;
 }
 
-.banderogus_start_text {
+.banderogus-start-text {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -62,14 +62,14 @@ header {
     margin-bottom: 48px;
 }
 
-.anderogus_descr {
+.anderogus-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #181D1F;
 }
 
-.banderogus_launch {
+.banderogus-launch {
     margin-top: 48px;
     border-radius: 8px;
     background: #FF6B0A;
@@ -81,24 +81,24 @@ header {
     cursor: pointer;
 }
 
-.main_page_row {
+.main-page-row {
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
 
-.banderogus_image {
+.banderogus-image {
     align-self: flex-end;
 }
 
-.gus_facts {
+.gus-facts {
     padding: 52px 0 72px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.gus_title {
+.gus-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 100px;
@@ -106,7 +106,7 @@ header {
     margin: 16px 0;
 }
 
-.gus_descr {
+.gus-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -115,17 +115,17 @@ header {
     width: 875px;
 }
 
-.gus_facts_container {
+.gus-facts-container {
     width: 1170px;
     display: flex;
     justify-content: space-between;
 }
 
-.gus_facts_item {
+.gus-facts-item {
     width: 33%;
 }
 
-.gus_facts_title {
+.gus-facts-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -133,7 +133,7 @@ header {
     margin: 12px 0 32px 0;
 }
 
-.gus_facts_descr {
+.gus-facts-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -141,7 +141,7 @@ header {
     width: 280px;
 }
 
-.victory_bgd {
+.victory-bgd {
     width: 1170px;
     background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
     padding: 72px 0;
@@ -151,12 +151,12 @@ header {
     align-items: center;
 }
 
-.victory_footer {
+.victory-footer {
     display: flex;
     justify-content: center;
 }
 
-.victory_title {
+.victory-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 100px;
@@ -164,7 +164,7 @@ header {
     margin: 16px 0;
 }
 
-.victory_descr {
+.victory-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -173,7 +173,7 @@ header {
     width: 875px;
 }
 
-.modal_bgd {
+.modal-bgd {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -188,16 +188,19 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-.modal_form {
-    background-color: #FFFFFF;
-    padding: 32px 92px 60px 92px;
+.modal-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.modal-form-container {
+    background-color: #FFFFFF;
+    padding: 32px 92px 60px 92px;
     position: relative;
 }
 
-.modal_form_title {
+.modal-form-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -207,22 +210,22 @@ header {
     margin: 32px 0 12px 0;
 }
 
-.modal_form_descr {
+.modal-form-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #000000F;
+    color: #000000;
     margin-bottom: 24px;
 }
 
-.modal_form_field {
+.modal-form-field {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
 }
 
-.modal_field_name {
+.modal-field-name {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -230,18 +233,18 @@ header {
     margin-bottom: 8px;
 }
 
-.modal_field_input {
+.modal-field-input {
     border: 1px solid #005BBB;
     border-radius: 8px;
     height: 48px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #000000F;
+    color: #000000;
     padding: 4px 8px;
 }
 
-.modal_form_button {
+.modal-form-button {
     margin-top: 24px;
     border-radius: 8px;
     background: #FF6B0A;
@@ -253,7 +256,7 @@ header {
     cursor: pointer;
 }
 
-.close_btn {
+.close-btn {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -264,11 +267,11 @@ header {
     background: none;
 }
 
-.modal_descr {
+.modal-descr {
     margin-bottom: 0;
 }
 
-.modal_active {
+.modal-active {
     opacity: 1;
     pointer-events: all;
 }
